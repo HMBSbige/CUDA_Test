@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CUDA_Test", "CUDA_Test\CUDA_Test.vcxproj", "{4E6B46C6-8166-475C-9753-9459F23109EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deviceQuery", "deviceQuery\deviceQuery.vcxproj", "{FE43EEA2-A88C-46FE-AD6F-55087E39A935}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bandwidthTest", "bandwidthTest\bandwidthTest.vcxproj", "{4EA33DA0-C048-483F-B69A-77202EA67AB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +19,14 @@ Global
 		{4E6B46C6-8166-475C-9753-9459F23109EC}.Debug|x64.Build.0 = Debug|x64
 		{4E6B46C6-8166-475C-9753-9459F23109EC}.Release|x64.ActiveCfg = Release|x64
 		{4E6B46C6-8166-475C-9753-9459F23109EC}.Release|x64.Build.0 = Release|x64
+		{FE43EEA2-A88C-46FE-AD6F-55087E39A935}.Debug|x64.ActiveCfg = Debug|x64
+		{FE43EEA2-A88C-46FE-AD6F-55087E39A935}.Debug|x64.Build.0 = Debug|x64
+		{FE43EEA2-A88C-46FE-AD6F-55087E39A935}.Release|x64.ActiveCfg = Release|x64
+		{FE43EEA2-A88C-46FE-AD6F-55087E39A935}.Release|x64.Build.0 = Release|x64
+		{4EA33DA0-C048-483F-B69A-77202EA67AB7}.Debug|x64.ActiveCfg = Debug|x64
+		{4EA33DA0-C048-483F-B69A-77202EA67AB7}.Debug|x64.Build.0 = Debug|x64
+		{4EA33DA0-C048-483F-B69A-77202EA67AB7}.Release|x64.ActiveCfg = Release|x64
+		{4EA33DA0-C048-483F-B69A-77202EA67AB7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
